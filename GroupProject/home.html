@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Logitech Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--header start-->
+    <header id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html #about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productType.html">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html #team">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registraton.html">REGISTRATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">FEEDBACK</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Slider-->
+    <div id="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/a.JPG" class="d-block w-100" alt="Mouse">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/b.JPG" class="d-block w-100" alt="Keyboard">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/c.jpg" class="d-block w-100" alt="One simple purpose">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!---Our Story--->
+    <section id="story">
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-md-6">
+                    <h1><b>Our Story</b></h1>
+                    <p>A Swiss company focused on innovation and quality, Logitech designs
+                        products and experiences that have an everyday place in people's lives. Founded in 1981 in
+                        Lausanne, Switzerland, and quickly expanding to the Silicon Valley, Logitech started connecting
+                        people through innovative computer peripherals and many industry firsts, including the infrared
+                        cordless mouse, the thumb-operated trackball, the laser mouse, and more.</p>
+                    <p>Since those early days, we have expanded both our expertise in product
+                        design and our global reach. For each of our products, we focus on how our customers connect and
+                        interact with the digital world. We keep design at the center of everything we create, in every
+                        team and every discipline, to create truly unique and meaningful experiences.</p>
+                </div>
+                <div class="col-md-6">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FaRWmQlooJY" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+     
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2"
+            data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top">
+                <a id="top" class="black-text" href="#multi-item-example" data-slide="prev"><i
+                        class="fa fa-angle-left fa-3x pr-3"></i></a>
+                <a id="bottom"class="black-text" href="#multi-item-example" data-slide="next"><i
+                        class="fa fa-angle-right fa-3x pl-3"></i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/gallery/mice.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/gallery/keyboard.jpeg" alt="Card image cap">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/gallery/headset.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/gallery/speaker.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/gallery/mobile.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/gallery/video.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/gallery/webcam.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/gallery/smarthome.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Second slide-->
+            </div>
+            <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
+    </section>
+
+    <!---About--->
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <div class="about-content">Logitech focused on innovation and quality, Logitech designs personal
+                        peripherals
+                        to help people enjoy a better experience with the digital world. We started in 1981 with mice,
+                        which (new at the time) provided a more intuitive way of interacting with a person</div>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
+                <div class="col-md-6 skills-bar">
+                    <p>Efficiency</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:85%;">85%</div>
+                    </div>
+                    <p>Innovation</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%;">80%</div>
+                    </div>
+                    <p>Products Design</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%;">70%</div>
+                    </div>
+                    <p>Support</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Passions--->
+    <section id="passions">
+        <div class="container">
+            <h1>Our Passions</h1>
+            <div class="row services">
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-desktop"></i>
+                    </div>
+                    <h3>Sustainability</h3>
+                    <p>We pledge to future generations to create great customer experiences and do so in a way that is
+                        sustainable for the planet and society.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <h3>Integrity</h3>
+                    <p>We’re small and flexible enough for every person to take the initiative and make things happen.
+                        But we’re big enough in our portfolio, and reach, for those actions to have a global impact.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-cog"></i>
+                    </div>
+                    <h3>Accessibility</h3>
+                    <p>Logitech is committed to making our website's content accessible and user friendly to everyone.
+                        We take your feedback seriously and will consider it. </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h3>Quality</h3>
+                    <p>Logitech has developed into a multi-brand company in good quality of efficiency and design of
+                        products that bring people together through music, gaming,video and computing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Team Members--->
+    <section id="team">
+        <div class="container">
+            <h1>Our Team</h1>
+            <div class="row">
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="images/members/cjj.jpeg" class="img-responsive">
+                        <ul>
+                            <a href="#">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-instagram"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <h2>Ch'ng Jia Jun</h2>
+                    <h3>Founder / CEO</h3>
+                    <p>"We have a number of key achievements to be proud of and we’re just getting started."</p>
+                </div>
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="images/members/ccl.jpg" class="img-responsive">
+                        <ul>
+                            <a href="#">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-instagram"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <h2>Chua Chee Long</h2>
+                    <h3>Business Head</h3>
+                    <p>"We know that we can never be effective without great partnerships so we try to be a great
+                        partner."</p>
+                </div>
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="images/members/hep.jpg" class="img-responsive">
+                        <ul>
+                            <a href="#">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-instagram"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <h2>Hoo Ern Ping</h2>
+                    <h3>Marketing Head</h3>
+                    <p>"Partner with the market leader in video collaboration. Logitech's innovative products and
+                        solutions open doors and delight customers."</p>
+                </div>
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="images/members/pwl.jpg" class="img-responsive">
+                        <ul>
+                            <a href="#">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-instagram"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <h2>Poh Wei Leong</h2>
+                    <h3>UI Designer</h3>
+                    <p>"As an award-winning design company, we pledge to future generations to create great customer
+                        experiences."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Promo--->
+    <section id="promo">
+        <div class="container">
+            <p>Get the Latest News of Our Product</p>
+            <a href="#" class="btn btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+
+    <!---Testiminials-->
+    <section id="testimonials">
+        <div class="container">
+            <h1>Testimonials</h1>
+            <b>
+                <p class="text-center">HIGHLIGHTS FROM THE FAMOUS ONE</p>
+            </b>
+            <div class="row justify-content-center">
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="images/members/pewdiepie.jpg" class="user">
+                        <blockquote><i class="fa fa-quote-left"></i> The best Logitech gaming mouse I've tested is the
+                            Logitech G Pro Wireless. This is considered to be one of the best wireless gaming mice
+                            available on the market. It has amazing performance, glides well, and feels accurate. <i
+                                class="fa fa-quote-right"></i></blockquote>
+                        <h3>Pewdiepie <span> Top 1 Youtuber </span></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="images/members/bjergsen.jpg" class="user">
+                        <blockquote><i class="fa fa-quote-left"></i> As an eSport player, It is very important to have
+                            computer equipment with best performance. Logitech makes a lot of different types of
+                            computer gadget, and will more than likely have one that suits your needs. <i
+                                class="fa fa-quote-right"></i></blockquote>
+                        <h3>Bjergsen <span> Professional eSport Player </span></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="images/members/pokimane.jpg" class="user">
+                        <blockquote><i class="fa fa-quote-left"></i> I still use my old Logitech speaker which has
+                            served me well at home for the last 10 years.Logitech has absolutely fantastic customer
+                            service, and their products are of pretty high quality. I'd highly recommend them. <i
+                                class="fa fa-quote-right"></i></blockquote>
+                        <h3>Pokimane <span> Famous Twitch Streamer </span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <div style="background-color: #00c3ff;">
+            <div class="container">
+
+                <div class="row py-4 d-flex align-items-center">
+
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get connected with us on social networks!</h6>
+                    </div>
+
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <a class="fb-ic" href="https://www.facebook.com/LogitechMalaysia/?brand_redir=273503033533">
+                            <i class="fa fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <a class="tw-ic" href="https://twitter.com/logitechg">
+                            <i class="fa fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <a class="gplus-ic"
+                            href="https://www.logitech.com/en-my/video-collaboration/partners/google.html">
+                            <i class="fa fa-google-plus white-text mr-4"> </i>
+                        </a>
+                        <a class="li-ic">
+                            <i class="fa fa-linkedin mr-4"> </i>
+                        </a>
+                        <a class="ins-ic" href="https://www.instagram.com/logitechg/">
+                            <i class="fa fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container text-center text-md-left mt-5">
+
+            <div class="row mt-3">
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Logitech</h6>
+                    <hr>
+                    </hr>
+                    <p>The company develops and markets personal peripherals for PC navigation, video communication and
+                        collaboration, music and smart homes. This includes products like keyboards, mice, tablet
+                        accessories, webcams, Bluetooth speakers, universal remotes and more. </p>
+
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">About</h6>
+                    <hr>
+                    </hr>
+                    <p>
+                        <a href="#!">Careers</a>
+                    </p>
+                    <p>
+                        <a href="#!">Terms of Use</a>
+                    </p>
+                    <p>
+                        <a href="#!">Investors</a>
+                    </p>
+                    <p>
+                        <a href="#!">Privacy Security</a>
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                    <hr>
+                    </hr>
+                    <p>
+                        <a href="#!">Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#!">Services</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr>
+                    </hr>
+                    <p>
+                        <i class="fa fa-home mr-3"></i> Johor, JB 10012, MS
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> logitech1234@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 01 234 567 88
+                    </p>
+                    <p>
+                        <i class="fa fa-print mr-3"></i> + 01 234 567 89
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="file:///C:/xampp/htdocs/ASG/index.html"> Logitech.com</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

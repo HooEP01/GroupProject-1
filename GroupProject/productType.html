@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logitech Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- bOOtstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    
+    .container {
+    padding: 10px;
+    margin: 5px;
+    }
+
+    .container::after,
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    .my-col {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    margin-bottom: 50px;
+    }
+
+    @media (min-width: 768px){
+        .my-col{
+                width:100%;
+                position:initial;
+            }
+    }
+
+    .title {
+    color: grey;
+    font-size: x-large;
+    margin: auto;
+    }
+
+    h2,
+    h3 {
+    text-align: center;
+    color: #555 !important;
+    padding: 10px;
+    }
+
+    h2::after {
+    content: "";
+    background: #4ddbff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    }
+
+    h3::after {
+    content: "";
+    background: #4ddbff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    }
+
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    }
+
+    .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    }
+
+    .button:hover {
+    background-color: #555;
+    }
+
+     .row{
+            margin-right:0;
+            margin-left:0;
+        }
+    </style>
+</head>
+
+<body>
+    <!--header start-->
+    <header id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html #about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productType.html">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html #team">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registraton.html">REGISTRATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">FEEDBACK</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+
+<!---Your Content--->
+    <section>
+    <h2>Our Products</h2>
+    <div class="row">
+        <div class="col-md-6 my-col">
+            <div class="card">
+                <img src="https://image.freepik.com/free-photo/gamer-workspace_127657-18683.jpg" alt="Jane"
+                    style="width:100%">
+                <div class="container">
+                    <h3>Computer Accessories</h3>
+                    <li class="title">Keyboards</li>
+                    <li class="title">Mice</li>
+                    <li class="title">Headsets</li>
+                    <a href="productMice&Headset.html">
+                        <br><br>
+                        <p><button class="button">Visit Our Product</button></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 my-col">
+            <div class="card">
+                <img src="https://image.freepik.com/free-photo/workplace-business-modern-male-accessories-laptop-black-background_155003-3944.jpg"
+                    alt="Mike" style="width:100%">
+                <div class="container">
+                    <h3>Latest Product</h3>
+                    <li class="title">Latest News</li>
+                    <li class="title">Product Quality</li>
+                    <li class="title">Product Description</li>
+                    <br><br>
+                    <a href="singleProduct.html">
+                        <p><button class="button">Visit Our Product</button></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <div style="background-color: #00c3ff;">
+            <div class="container">
+
+                <div class="row py-4 d-flex align-items-center">
+
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get connected with us on social networks!</h6>
+                    </div>
+
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <a class="fb-ic" href="https://www.facebook.com/LogitechMalaysia/?brand_redir=273503033533">
+                            <i class="fa fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <a class="tw-ic" href="https://twitter.com/logitechg">
+                            <i class="fa fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <a class="gplus-ic" href="https://www.logitech.com/en-my/video-collaboration/partners/google.html">
+                            <i class="fa fa-google-plus white-text mr-4"> </i>
+                        </a>
+                        <a class="li-ic">
+                            <i class="fa fa-linkedin mr-4"> </i>
+                        </a>
+                        <a class="ins-ic" href="https://www.instagram.com/logitechg/">
+                            <i class="fa fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container text-center text-md-left mt-5">
+
+            <div class="row mt-3">
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Logitech</h6>
+                    <hr>
+                    </hr>
+                    <p>The company develops and markets personal peripherals for PC navigation, video communication and
+                        collaboration, music and smart homes. This includes products like keyboards, mice, tablet
+                        accessories, webcams, Bluetooth speakers, universal remotes and more. </p>
+
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">About</h6>
+                    <hr>
+                    </hr>
+                    <p>
+                        <a href="#!">Careers</a>
+                    </p>
+                    <p>
+                        <a href="#!">Terms of Use</a>
+                    </p>
+                    <p>
+                        <a href="#!">Investors</a>
+                    </p>
+                    <p>
+                        <a href="#!">Privacy Security</a>
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                    <hr>
+                    </hr>
+                    <p>
+                        <a href="#!">Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#!">Services</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr>
+                    </hr>
+                    <p>
+                        <i class="fa fa-home mr-3"></i> Johor, JB 10012, MS
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> logitech1234@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 01 234 567 88
+                    </p>
+                    <p>
+                        <i class="fa fa-print mr-3"></i> + 01 234 567 89
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="file:///C:/xampp/htdocs/ASG/index.html"> Logitech.com</a>
+        </div>
+    </footer>
+    <!-- jquery plugins here-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
